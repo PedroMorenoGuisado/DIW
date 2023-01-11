@@ -1,0 +1,19 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build ./src/pagina.css -o ./css/output.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-import": "^15.1.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "flowbite": "^1.6.0"
+  }
+}
