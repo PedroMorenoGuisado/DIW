@@ -93,21 +93,9 @@ body{
     }
 }
 
-#menu ul li a:hover{
-    color: #37bcf9;
-    transform: scale(1.2, 1.2);
-}
-
 /*BANNER*/
 #banner{
-    width: 95.5%;
-    height: 100px;
-    border: 10px solid white;
-    box-shadow: 0px 0px 2px gray;
     background: url("../img/bakbaner.png");
-    background-position: -200px -200px;
-    margin: 20px auto;
-    overflow: hidden;
     animation: backBanner 10s linear;
 }
 
@@ -121,16 +109,9 @@ body{
 }
 
 #banner h1{
-    display: block;
-    width: 850px;
     font-family: "BebasNeue";
-    color: white;
-    font-size: 45px;
-    font-weight: normal;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px 1px black;
-    margin: 27px auto;
     animation: showText 10s linear;
+    text-shadow: 2px 2px 1px black;
 }
 
 @keyframes showText{
@@ -157,45 +138,10 @@ body{
 }
 
 /*TARJETAS*/
-.card{
-    float:left;
-    width: 205px;
-    height: 305px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 2px #ddd;
-    background: white;
-    overflow: hidden;
-    margin: 22px;
-    margin-top: 40px;
-    cursor: pointer;
-    transition: all 300ms;
-}
-
-.card:hover{
-    background: black;
-}
-
-.card:last-child{
-    margin-right: 0px;
-}
-
-.card .icon{
-    display: block;
-    width: 100%;
-    height: 130px;
-    font-size: 50px;
-    line-height: 110px;
-    text-align: center;
-    margin: 0px auto;
-    transition: all 300ms;
-}
-
 .card:hover .icon{
     font-size: 70px;
-    color: #37bcf9;
     animation: showIcon 300ms linear;
 }
-
 @keyframes showIcon{
     from{
         transform: translateY(-200%);
@@ -206,19 +152,12 @@ body{
 }
 
 .card .category{
-    width: 100%;
-    height: 50px;
-    font-family: "TrebuchetMS";
-    font-size: 21px;
-    font-weight: bold;
-    text-align: center;
-    color: #00538c;
-    transition: all 300ms;
+    color: #0370b9;
 }
 
 .card:hover .category{
-    color: white;
     animation: showCategory 400ms linear;
+    color: white;
 }
 
 @keyframes showCategory{
